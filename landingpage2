@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+    }
+    
+    body{
+    background:#f4f4f4;
+    }
+    
+    header{
+    background:#111;
+    color:white;
+    padding:20px;
+    }
+    
+    nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    }
+    
+    nav ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+    }
+    
+    nav a{
+    color:white;
+    text-decoration:none;
+    }
+    
+    .hero{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(135deg,#2563eb,#4f46e5);
+    color:white;
+    }
+    
+    .hero h1{
+    font-size:60px;
+    }
+    
+    .hero p{
+    margin:20px;
+    font-size:22px;
+    }
+    
+    .boton{
+    background:white;
+    color:#2563eb;
+    padding:15px 35px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    }
+    
+    #servicios{
+    padding:80px;
+    text-align:center;
+    }
+    
+    .cards{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    margin-top:40px;
+    }
+    
+    .card{
+    background:white;
+    padding:30px;
+    width:300px;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    }
+    
+    #contacto{
+    padding:80px;
+    text-align:center;
+    background:#222;
+    color:white;
+    }
+    
+    footer{
+    padding:20px;
+    text-align:center;
+    }
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Landing Page</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+
+<nav>
+<h2>Mi Empresa</h2>
+
+<ul>
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#servicios">Servicios</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero" id="inicio">
+
+<h1>Haz crecer tu negocio</h1>
+
+<p>Creamos páginas web profesionales y tiendas online.</p>
+
+<a href="#contacto" class="boton">
+Solicitar Cotización
+</a>
+
+</section>
+
+<section id="servicios">
+
+<h2>Nuestros Servicios</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Landing Pages</h3>
+<p>Diseños modernos y rápidos.</p>
+</div>
+
+<div class="card">
+<h3>Tiendas Online</h3>
+<p>Venta por Internet.</p>
+</div>
+
+<div class="card">
+<h3>Marketing</h3>
+<p>Publicidad Digital.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contacto">
+
+<h2>Contacto</h2>
+
+<p>WhatsApp: +591 70000000</p>
+
+<a
+class="boton"
+href="https://wa.me/59170000000">
+Escríbeme
+</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 Mi Empresa</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+console.log("Landing Page lista");
